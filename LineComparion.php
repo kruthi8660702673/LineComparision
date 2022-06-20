@@ -17,8 +17,10 @@ $LengthOfLine2 = sqrt(pow(($x4-$x3),2)+ pow(($y4-$y3),2));
 echo "The length of the line is ". $LengthOfLine2 . "\n";
 if($LengthOfLine1 == $LengthOfLine2){
     echo "Both lines are equal \n";
+}else if ($LengthOfLine1 > $LengthOfLine2){
+    echo "Line1 is greater than Line2 \n ";  
 }else {
-    echo "Lines are not equal";
+    echo "Line2 is greater than Line2";
 }
 }
 lineComp($x1,$x2,$y1,$y2,$x3,$x4,$y3,$y4);
