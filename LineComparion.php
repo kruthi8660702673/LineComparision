@@ -1,7 +1,5 @@
 <?php
-echo ('.......Welcome to Line Comparison Computation Program ......');
-
-
+echo "..... Welcome to Line Comparison Computation Program ....... ";
 
 
 
